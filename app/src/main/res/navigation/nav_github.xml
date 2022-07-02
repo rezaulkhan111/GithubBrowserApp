@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/github_navigation"
+    app:startDestination="@id/fghomeFragment">
+
+    <fragment
+        android:id="@+id/fghomeFragment"
+        android:name="com.machinecode.github_project.ui.fragment.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" >
+        <argument
+            android:name="parameterModel"
+            android:defaultValue="0"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_fghomeFragment_to_fgRepositoryDetailsFragment"
+            app:destination="@id/fgRepositoryDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fgRepositoryDetailsFragment"
+        android:name="com.machinecode.github_project.ui.fragment.RepositoryDetailsFragment"
+        android:label="Details"
+        tools:layout="@layout/fragment_repository_details" />
+</navigation>
