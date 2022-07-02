@@ -8,7 +8,8 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="5dp">
+        android:layout_margin="5dp"
+        tools:ignore="UselessParent">
 
         <LinearLayout
             android:id="@+id/ll_search"
@@ -46,20 +47,10 @@
                     android:text="Search" />
             </LinearLayout>
 
-            <LinearLayout
-                android:id="@+id/ll_sort_item_layout"
+            <RadioGroup
+                android:id="@+id/radioGroup"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="3dp"
-                android:background="@color/white"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <RadioGroup
-                    android:id="@+id/radioGroup"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
-            </LinearLayout>
+                android:layout_height="match_parent" />
         </LinearLayout>
 
         <androidx.recyclerview.widget.RecyclerView
