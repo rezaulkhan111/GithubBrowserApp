@@ -15,7 +15,7 @@ f) jetpack navigation
 # App Screenshots
 <img src="https://raw.githubusercontent.com/rezaulkhan111/GithubBrowserApp/master/1_GithubProject.jpg" width="346" height="615" />
 
-<img src="https://raw.githubusercontent.com/rezaulkhan111/GithubBrowserApp/2_GithubProject.jpg" width="346" height="615" />
+<img src="https://raw.githubusercontent.com/rezaulkhan111/GithubBrowserApp/master/2_GithubProject.jpg" width="346" height="615" />
 
 <img src="https://raw.githubusercontent.com/rezaulkhan111/GithubBrowserApp/master/3_GithubProject.jpg" width="346" height="615" />
 
